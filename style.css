@@ -11,6 +11,12 @@
 .container-location {
     display: flex;
 }
+    @media(max-width:768px){
+        .container-location {
+            display: flex;
+            margin-left: 40px;
+        }
+    }
 .img-location {
     width: 20px;
     margin-left: 40px;
@@ -21,6 +27,11 @@
     margin-left: 10px;
     margin-top: 5px;
 }
+    @media (max-width:768px) {
+        .location {
+            width: 200px;
+        }
+    }
 .container-title {
     display: flex;
 }
@@ -29,7 +40,12 @@
     font-size: 64px;
     line-height: 40px;
     margin: 0px 25px 0px 0px;
-}
+} 
+    @media (max-width:768px) {
+        .first-title {
+            margin: 0px 25px 0px 150px;
+        }
+    }
 .img-title {
     width: 5rem;
     margin: -30px 5px 0px -13px;
@@ -50,10 +66,22 @@
     height: 35px;
     width: 130px;
 }
+    @media (max-width:768px) {
+        .button-init {
+            margin: 5px 120px 0px 170px;
+            font-size: 15px;
+        }
+    }
 .division-container-header {
     border: 1px dashed #F2F2F2;
     margin-top: 20px;
 }
+    @media (max-width:768px) {
+        .division-container-header {
+            border: 2px dashed #F2F2F2;
+            width: 1191px;
+        }
+    }
 #menu-hamburguer {
     display: none;
 }
@@ -61,6 +89,11 @@
     display: flex;
     justify-content: space-between;
 }
+    @media (max-width:768pc) {
+        .container-menu {
+            width: 1191px;
+        }
+    }
 .list-menu {
     display: flex;
     justify-content: space-evenly;
@@ -68,7 +101,14 @@
     width: 700px;
     margin-top: 25px;
     margin-left: 1rem;
-}
+} 
+    @media (max-width:768px) {
+        .list-menu {
+            font-size: 18px;
+            margin-left: 4rem;
+        }
+    }
+
 .link-item-list {
     text-decoration: none;
     color: black;
@@ -94,10 +134,24 @@
     width: 130px;
     margin: 21px 80px 0px 0px;
 }
+    @media (max-width:768px) {
+        .button-search {
+            margin: 21px 113px 0px 0px;
+            height: 30px;
+            font-size: 18px;
+            font-style: normal;
+        }
+    }       
 .img-container-description {
     width: 100%;
     margin-top: 20px;
 }
+    @media (max-width:768px) {
+        .img-container-description{
+            width: 1191px;
+            height: 400px;
+        }    
+    }
 .title-main {
     font-family: 'Rouge Script', cursive;
     color: #FF6666;
@@ -105,11 +159,22 @@
     margin-top: -280px;
     margin-left: 170px;
 }
+    @media (max-width:768px) {
+        .title-main {
+            margin-top: -350px;
+            font-size: 66px;
+        }
+    }
 .subtitle-main {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
     margin-left: 170px;
 }
+    @media (max-width:768px) {
+        .subtitle-main {
+            font-size: 18px;
+        }
+    }
 .description {
     font-family: 'Rosario', sans-serif;
     color: #716969;
@@ -117,7 +182,13 @@
     line-height: 22px;
     margin-left: 170px;
     margin-top: 10px;
-}
+}   
+    @media (max-width:768px) {
+        .description {
+            font-size: 20px;
+            width: 520px;
+        }
+    }
 .button-description {
     background-color:  #FF6666;
     border: none;
@@ -129,10 +200,22 @@
     margin-left: 170px;
     margin-top: 20px;
 }
+    @media (max-width:768px) {
+        .button-description {
+            padding: 15px;
+            font-size: 18px;
+        }
+    }
 .cakes-description-container-init {
     margin-left: 900px;
     margin-top: -220px;
 }
+    @media (max-width:768px){
+        .cakes-description-container-init {
+            margin-left: 870px;
+            margin-top: -200px;
+        }
+    }
 .container-description-cakes {
     background-color: white;
     width: 714px;
@@ -141,6 +224,12 @@
     top: 457px;
     left: 302px;
 }
+    @media (max-width:768px){
+        .container-description-cakes {
+            top: 500px;
+            left: 290px;
+        }
+    }
 .cupcakes-container {
     width: 660px;
     margin-top: 20px;
@@ -158,6 +247,11 @@
     font-size: 62px; 
     margin-left: 30px;
 }
+    @media (max-width:768px){
+        .title-cakes {
+            font-size: 66px;
+        }
+    }
 .description-cakes {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -167,6 +261,12 @@
     margin-left: 10px;
     margin-top: 40px;
 }
+    @media (max-width:768px){
+        .description-cakes {
+            font-size: 22px;
+            width: 600px;
+        }
+    }
 .title-offer {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -174,10 +274,23 @@
     text-align: center;
     margin-top: 400px;
 }
+    @media (max-width:768px){
+        .title-offer{
+            font-size: 52px;
+            text-align: center;
+            margin-left: 25rem;
+            width: 471px;
+        }
+    }
 .set-containers-offer {
     display: flex;
     justify-content: space-evenly;
-}
+}   
+    @media (max-width:768px){
+        .set-containers-offer {
+            width: 1191px;
+        }
+    }
 .container-offer {
     width: 300px;
     height: 480px;
@@ -201,6 +314,13 @@
     margin-top: 40px;
     margin-left: 15px;
 }
+    @media (max-width:768px){
+        .description-container-offer {
+            font-size: 18px;
+            margin-top: 20px;
+            line-height: 24px;
+        }
+    }
 .title-new-products {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -208,10 +328,23 @@
     text-align: center;
     margin-top: 130px;   
 }
+    @media (max-width:768px){
+        .title-new-products {
+            font-size: 52px;
+            text-align: center;
+            margin-left: 25rem;
+            width: 471px;
+        }
+    }
 .set-container-new {
     display: flex;
     justify-content: space-evenly;   
 }
+    @media (max-width:768px){
+        .set-container-new {
+            width: 1191px;
+        }
+    }
 .img-container-new {
     width: 305px;  
     margin-top: 110px;
@@ -240,6 +373,11 @@
     text-align: center;
     margin-top: -245px;
 }
+    @media (max-width:768px){
+        .title-container-new {
+            font-size: 28px;
+        }
+    }
 .link-set-menu {
     text-decoration: none;
     color: black;
