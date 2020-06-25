@@ -16,11 +16,22 @@
             display: flex;
             margin-left: 40px;
         }
+    }   
+    @media(max-width:425px){
+        .container-location {
+            display: flex;
+            margin-left: 40px;
+        }
     }
 .img-location {
     width: 20px;
     margin-left: 40px;
 }
+    @media(max-width:425px){
+        .img-location {
+            width: 30px;
+        }
+    }
 .location {
     font-family: 'Rosario', sans-serif;
     font-size: 18px;
@@ -30,6 +41,11 @@
     @media (max-width:768px) {
         .location {
             width: 200px;
+        }
+    }
+    @media(max-width:425px){
+        .location {
+            font-size: 32px;
         }
     }
 .container-title {
@@ -46,6 +62,11 @@
             margin: 0px 25px 0px 150px;
         }
     }
+    @media(max-width:425px){
+        .first-title {
+            font-size: 74px;
+        }
+    }
 .img-title {
     width: 5rem;
     margin: -30px 5px 0px -13px;
@@ -56,6 +77,11 @@
     line-height: 40px;
     margin: 0px 0px 0px 10px;
 }
+    @media(max-width:425px){
+        .second-title {
+            font-size: 74px;
+        }
+    }
 .button-init {
     background-color: transparent;
     border-color: #FF6666;
@@ -72,6 +98,15 @@
             font-size: 15px;
         }
     }
+    @media(max-width:425px){
+        .button-init { 
+            padding: 0px;
+            width: 200px;
+            font-size: 28px;
+            height: 45px;
+            margin-top: -4px;
+        }
+    }
 .division-container-header {
     border: 1px dashed #F2F2F2;
     margin-top: 20px;
@@ -82,14 +117,42 @@
             width: 1191px;
         }
     }
+    @media (max-width:425px) {
+        .division-container-header {
+            border: 3px dashed #F2F2F2;
+            width: 1300px;
+        }
+    }
 #menu-hamburguer {
+    padding: 5px;
+    background-color: transparent;
+    color: #FF6666;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
     display: none;
 }
+    @media (max-width:425px) {
+#menu-hamburguer {
+            display: block;
+            margin-left: 1072px;
+            margin-top: 20px;
+        }
+    }
+.link-menu {
+    display: none;
+}
+    @media (max-width:425px) {
+        .link-menu {
+            display: block;
+            text-decoration: none;
+        }
+    }
 .container-menu {
     display: flex;
     justify-content: space-between;
 }
-    @media (max-width:768pc) {
+    @media (max-width:768px) {
         .container-menu {
             width: 1191px;
         }
@@ -106,6 +169,11 @@
         .list-menu {
             font-size: 18px;
             margin-left: 4rem;
+        }
+    }
+    @media (max-width:425px) {
+        .list-menu {
+            display: none;
         }
     }
 
@@ -125,6 +193,15 @@
     width: 30px;
     margin: 21px 15px 0px 0px;
 }
+    @media(max-width:425px){
+        .img-lupa {
+            width: 60px;
+            position: absolute;
+            top: 140px;
+            left: 75px;
+        }
+    } 
+
 .button-search {
     background-color: transparent;
     border-color: #FF6666;
@@ -142,6 +219,17 @@
             font-style: normal;
         }
     }       
+    @media(max-width:425px){
+        .button-search {
+            height: 40px;
+            width: 300px;
+            position: absolute;
+            top: 154px;
+            left: 176px;
+            font-size: 32px;
+            padding: 5px;
+         }
+     } 
 .img-container-description {
     width: 100%;
     margin-top: 20px;
@@ -152,6 +240,12 @@
             height: 400px;
         }    
     }
+    @media(max-width:425px){
+        .img-container-description {
+            width: 1300px;
+            height: 600px;
+         }
+     } 
 .title-main {
     font-family: 'Rouge Script', cursive;
     color: #FF6666;
@@ -165,6 +259,13 @@
             font-size: 66px;
         }
     }
+    @media(max-width:425px){
+        .title-main {
+            font-size: 120px;
+            margin-top: -546px;
+            margin-left: 100px;
+         }
+     } 
 .subtitle-main {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -173,8 +274,16 @@
     @media (max-width:768px) {
         .subtitle-main {
             font-size: 18px;
+            margin-left: 100px;
         }
     }
+    @media(max-width:425px){
+        .subtitle-main {
+            font-size: 30px;
+            line-height: 41px;
+            margin-left: 100px;
+         }
+     } 
 .description {
     font-family: 'Rosario', sans-serif;
     color: #716969;
@@ -189,6 +298,14 @@
             width: 520px;
         }
     }
+    @media(max-width:425px){
+        .description {
+            font-size: 40px;
+            line-height: 41px;
+            width: 700px;
+            margin-left: 100px;
+         }
+     } 
 .button-description {
     background-color:  #FF6666;
     border: none;
@@ -206,6 +323,14 @@
             font-size: 18px;
         }
     }
+    @media(max-width:425px){
+        .button-description {
+           padding: 25px;
+           width: 200px;
+           margin-left: 100px;
+           font-size: 26px;
+         }
+     } 
 .cakes-description-container-init {
     margin-left: 900px;
     margin-top: -220px;
@@ -216,6 +341,13 @@
             margin-top: -200px;
         }
     }
+    @media(max-width:425px){
+        .cakes-description-container-init {
+           width: 422px;
+           margin-top: -323px;
+           margin-left: 850px;
+         }
+     } 
 .container-description-cakes {
     background-color: white;
     width: 714px;
@@ -230,11 +362,26 @@
             left: 290px;
         }
     }
+    @media(max-width:425px){
+        .container-description-cakes {
+           top: 750px;
+           left: 240px;
+           width: 850px;
+            height: 400px;
+         }
+     } 
 .cupcakes-container {
     width: 660px;
     margin-top: 20px;
     margin-left: 27px;
 }
+    @media(max-width:425px){
+        .cupcakes-container {
+            width: 793px;
+            height: 450px;
+            margin-top: 20px;    
+        }
+    } 
 .container-text-cakes {
     display: flex;
     flex-direction: column;
@@ -252,6 +399,12 @@
             font-size: 66px;
         }
     }
+    @media(max-width:425px){
+        .title-cakes {
+            font-size: 100px;
+            margin-top: -124px;
+        }
+    } 
 .description-cakes {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -267,6 +420,14 @@
             width: 600px;
         }
     }
+    @media(max-width:425px){
+        .description-cakes {
+            font-size: 42px;
+            width: 700px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    } 
 .title-offer {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -282,6 +443,15 @@
             width: 471px;
         }
     }
+    @media(max-width:425px){
+        .title-offer {
+            font-size: 82px;
+            text-align: center;
+            margin-left: 21rem;
+            margin-top: 41rem;
+            width: 700px;
+        }
+    } 
 .set-containers-offer {
     display: flex;
     justify-content: space-evenly;
@@ -291,21 +461,46 @@
             width: 1191px;
         }
     }
+    @media(max-width:425px){
+        .set-containers-offer {
+           display: flex;
+           flex-wrap: wrap;
+           margin-left: 6rem;
+           margin-top: 10rem;
+        }
+    } 
 .container-offer {
     width: 300px;
     height: 480px;
     background-color: #F2F2F2;
     margin-top: 70px;
 }
+    @media(max-width:425px){
+        .container-offer {
+            height: 950px;
+            width: 600px;
+            margin-top: 7rem;
+        }
+    } 
 .img-container-offer {
     width: 300px;
 }
+    @media(max-width:425px){
+        .img-container-offer {
+            width: 600px;
+        }
+    } 
 .title-container-offer {
     font-family: 'Rosario', sans-serif;
     font-size: 26px;
     text-align: center;
     margin-top: 22px;
 }
+    @media(max-width:425px){
+        .title-container-offer {
+            font-size: 42px;
+        }
+    } 
 .description-container-offer {
     font-family: 'Rosario', sans-serif;
     font-size: 14px;
@@ -321,6 +516,15 @@
             line-height: 24px;
         }
     }
+    @media(max-width:425px){
+        .description-container-offer {
+            font-size: 36px;
+            line-height: 50px;
+            width: 500px;
+            margin-left: 42px;
+            margin-top: 50px;
+        }
+    } 
 .title-new-products {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
@@ -336,6 +540,15 @@
             width: 471px;
         }
     }
+    @media(max-width:425px){
+        .title-new-products {
+            font-size: 82px;
+            text-align: center;
+            margin-left: 21rem;
+            margin-top: 21rem;
+            width: 700px;
+        }
+    } 
 .set-container-new {
     display: flex;
     justify-content: space-evenly;   
@@ -345,14 +558,32 @@
             width: 1191px;
         }
     }
+    @media(max-width:425px){
+        .set-container-new {
+           display: flex;
+           flex-wrap: wrap;
+           margin-left: 6rem;
+           margin-top: 10rem;
+        }
+    } 
 .img-container-new {
     width: 305px;  
     margin-top: 110px;
 }
+    @media(max-width:425px){
+        .img-container-new {
+            width: 600px;
+        }
+    } 
 .img-container-new-1 {
     width: 308px;  
     margin-top: 110px;
-}
+} 
+    @media(max-width:425px){
+        .img-container-new-1 {
+            width: 603px;
+        }
+    } 
 .container-new {
     width: 297px;
     height: 60px;
@@ -360,6 +591,12 @@
     margin: -9px 0px 200px 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+    @media(max-width:425px){
+        .container-new {
+            height: 100px;
+            width: 590px;
+        }
+    } 
 .container-new-1 {
     width: 297px;
     height: 60px;
@@ -367,6 +604,12 @@
     margin: -10px 0px 200px 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+    @media(max-width:425px){
+        .container-new-1 {
+            height: 100px;
+            width: 593px;
+        }
+    }
 .title-container-new {
     font-family: 'Rosario', sans-serif;
     font-size: 26px;
@@ -378,6 +621,12 @@
             font-size: 28px;
         }
     }
+    @media(max-width:425px){
+        .title-container-new {
+            font-size: 52px;
+            margin-top: -285px;
+        }
+    } 
 .link-set-menu {
     text-decoration: none;
     color: black;
