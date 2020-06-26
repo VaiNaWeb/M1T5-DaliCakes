@@ -188,7 +188,13 @@
 }
 .container-search {
     display: flex;
+    width: 250px;
 }
+    @media (max-width:768px) {
+        .container-search {
+            width: 289px;
+        }
+    }      
 .img-lupa {
     width: 30px;
     margin: 21px 15px 0px 0px;
@@ -209,11 +215,11 @@
     padding: 3px;
     height: 25px;
     width: 130px;
-    margin: 21px -80px 0px 0px;
+    margin: 21px -60px 0px 0px;
 }
     @media (max-width:768px) {
         .button-search {
-            margin: 21px 113px 0px 0px;
+            margin: 21px 0px 0px 0px;
             height: 30px;
             font-size: 18px;
             font-style: normal;
@@ -228,6 +234,7 @@
             left: 176px;
             font-size: 32px;
             padding: 5px;
+            border-width: 3px;
          }
      } 
 .img-container-description {
@@ -246,6 +253,14 @@
             height: 600px;
          }
      } 
+.container-description-init {
+}
+    @media (max-width:425px) {
+        .container-description-init {
+            text-align: center;
+            margin-left: 210px;
+        }
+    }
 .title-main {
     font-family: 'Rouge Script', cursive;
     color: #FF6666;
@@ -253,6 +268,11 @@
     margin-top: -280px;
     margin-left: 170px;
 }
+    @media (max-width:1024px){
+        .title-main {
+            line-height: 127px;
+        }
+    }
     @media (max-width:768px) {
         .title-main {
             margin-top: -350px;
@@ -261,9 +281,9 @@
     }
     @media(max-width:425px){
         .title-main {
-            font-size: 120px;
-            margin-top: -546px;
-            margin-left: 100px;
+            font-size: 138px;
+            margin-top: -555px;
+            margin-left: 253px;
          }
      } 
 .subtitle-main {
@@ -271,17 +291,23 @@
     font-weight: bold;
     margin-left: 170px;
 }
+    @media (max-width:1024px){
+        .subtitle-main {
+            margin-top: -31px;
+        }
+    }
     @media (max-width:768px) {
         .subtitle-main {
             font-size: 18px;
-            margin-left: 100px;
+            margin-left: 170px;
         }
     }
     @media(max-width:425px){
         .subtitle-main {
-            font-size: 30px;
-            line-height: 41px;
-            margin-left: 100px;
+            font-size: 33px;
+            line-height: 96px;
+            margin-left: 326px;
+            width: 215px;
          }
      } 
 .description {
@@ -301,7 +327,8 @@
     @media(max-width:425px){
         .description {
             font-size: 40px;
-            line-height: 41px;
+            line-height: 44px;
+            margin-top: -4px;
             width: 700px;
             margin-left: 100px;
          }
@@ -327,7 +354,7 @@
         .button-description {
            padding: 25px;
            width: 200px;
-           margin-left: 100px;
+           margin-left: 345px;
            font-size: 26px;
          }
      } 
@@ -335,6 +362,12 @@
     margin-left: 900px;
     margin-top: -220px;
 }
+    @media (max-width:1024px){
+        .cakes-description-container-init {
+            margin-left: 739px;
+            margin-top: -204px;
+        }
+    }
     @media (max-width:768px){
         .cakes-description-container-init {
             margin-left: 870px;
@@ -343,9 +376,7 @@
     }
     @media(max-width:425px){
         .cakes-description-container-init {
-           width: 422px;
-           margin-top: -323px;
-           margin-left: 850px;
+            display: none;
          }
      } 
 .container-description-cakes {
@@ -356,6 +387,12 @@
     top: 457px;
     left: 302px;
 }
+    @media (max-width:1024px){
+        .container-description-cakes {
+            top: 424px;
+            left: 177px;
+        }
+    }
     @media (max-width:768px){
         .container-description-cakes {
             top: 500px;
