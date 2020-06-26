@@ -223,6 +223,7 @@
             height: 30px;
             font-size: 18px;
             font-style: normal;
+            border-width: 2px;
         }
     }       
     @media(max-width:425px){
