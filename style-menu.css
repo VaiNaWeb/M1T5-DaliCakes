@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2F2F2;
+}
+
+
+.item-list {
+    list-style: none;
+    color: #FF6666;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Rosario', sans-serif;
+    margin-top: 35px;
+}
+.link-item-list {
+    text-decoration: none;
+}
