@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 .container-init {
+    height: 8rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    align-items: center;
 }
 .container-location {
     display: flex;
@@ -49,7 +50,9 @@
         }
     }
 .container-title {
+    margin:  0 1rem;
     display: flex;
+    align-items: center;
 }
 .first-title {
     font-family: 'Rouge Script', cursive;
@@ -255,6 +258,12 @@
          }
      } 
 .container-description-init {
+    background: #f2f2f2;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
     @media (max-width:425px) {
         .container-description-init {
@@ -266,8 +275,6 @@
     font-family: 'Rouge Script', cursive;
     color: #FF6666;
     font-size: 52px;
-    margin-top: -280px;
-    margin-left: 170px;
 }
     @media (max-width:1024px){
         .title-main {
@@ -287,10 +294,14 @@
             margin-left: 253px;
          }
      } 
+
+.wrap-description {
+    width: 55%;
+}
+
 .subtitle-main {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
-    margin-left: 170px;
 }
     @media (max-width:1024px){
         .subtitle-main {
@@ -315,9 +326,7 @@
     font-family: 'Rosario', sans-serif;
     color: #716969;
     width: 417px;
-    line-height: 22px;
-    margin-left: 170px;
-    margin-top: 10px;
+    line-height: 22px;s
 }   
     @media (max-width:768px) {
         .description {
@@ -342,8 +351,6 @@
     font-family:  'Rosario', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    margin-left: 170px;
-    margin-top: 20px;
 }
     @media (max-width:768px) {
         .button-description {
@@ -360,8 +367,7 @@
          }
      } 
 .cakes-description-container-init {
-    margin-left: 900px;
-    margin-top: -220px;
+  
 }
     @media (max-width:1024px){
         .cakes-description-container-init {
